@@ -1,0 +1,18 @@
+NASA EMAC entries are systematically examined for software suitable to register in the ASCL
+	Done
+ 
+ASCL entries for suitable EMAC entries are created and published
+	Done
+
+Set of software common to ASCL and Zenodo is identified
+	Done
+
+ASCL database is adapted for inclusion of links to EMAC entries and Zenodo concept DOIs
+
+Existing ASCL records for EMAC software are edited to include links to the EMAC entries
+
+New links and edited ASCL records for EMAC research software are ingested by and appear in ADS
+
+Zenodo DOIs are added to corresponding ASCL entries
+ 
+New metadata for preferred citation and Zenodo DOIs is ingested by ADS for testing possible new functionality
