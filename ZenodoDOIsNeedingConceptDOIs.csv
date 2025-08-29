@@ -1,0 +1,88 @@
+ascl_id,title,zenodo_doi
+1010.060,Pencil: Finite-difference Code for Compressible Hydrodynamic Flows,10.5281/zenodo.3466444
+1502.001,RH 1.5D: Polarized multi-level radiative transfer with partial frequency distribution,10.5281/zenodo.592414
+1503.010,isochrones: Stellar model grid package,10.5281/zenodo.16304
+1505.007,Starfish: Robust spectroscopic inference tools,10.5281/zenodo.2221006
+1507.007,abo-cross: Hydrogen broadening cross-section calculator,10.5281/zenodo.50216
+1507.008,HLINOP: Hydrogen LINe OPacity in stellar atmospheres,10.5281/zenodo.50215
+1601.009,K2fov: Field of view software for NASA's K2 mission,10.5281/zenodo.44283
+1606.014,Lmfit: Non-Linear Least-Square Minimization and Curve-Fitting for Python,10.5281/zenodo.598352
+1608.012,OBERON: OBliquity and Energy balance Run on N-body systems,10.5281/zenodo.595734
+1609.022,PyPHER: Python-based PSF Homogenization kERnels,10.5281/zenodo.61392
+1611.009,RHOCUBE: 3D density distributions modeling code,10.5281/zenodo.160465
+1612.011,QSFit: Quasar Spectral FITting,10.5281/zenodo.7629195
+1701.001,The Joker: A custom Monte Carlo sampler for binary-star and exoplanet radial velocity data,10.5281/zenodo.264481
+1701.005,KAULAKYS:  Inelastic collisions between hydrogen atoms and Rydberg atoms,10.5281/zenodo.50217
+1701.006,MSWAVEF: Momentum-Space Wavefunctions,10.5281/zenodo.50218
+1703.003,Corrfunc: Blazing fast correlation functions on the CPU,10.5281/zenodo.61511
+1708.028,ANA: Astrophysical Neutrino Anisotropy,10.5281/zenodo.438675
+1802.011,runDM: Running couplings of Dark Matter to the Standard Model,10.5281/zenodo.823249
+1804.016,surrkick: Black-hole kicks from numerical-relativity surrogate models,10.5281/zenodo.1170520
+1806.012,WDEC: White Dwarf Evolution Code,10.5281/zenodo.1188445
+1807.028,ktransit: Exoplanet transit modeling tool in python,10.5281/zenodo.35265
+1810.002,Barcode: Bayesian reconstruction of cosmic density fields,10.5281/zenodo.1464616
+1810.006,Echelle++: Generic spectrum simulator,10.5281/zenodo.1467359
+1810.008,pycraf: Spectrum-management compatibility,10.5281/zenodo.1244192
+1810.017,SOPHISM: Software Instrument Simulator,10.5281/zenodo.1238813
+1901.010,eddy: Extracting Disk DYnamics,10.5281/zenodo.1440051
+1904.018,Specstack: A simple spectral stacking tool,10.5281/zenodo.2630832
+1905.026,SEDPY: Modules for storing and operating on astronomical source spectral energy distribution,10.5281/zenodo.4582723
+1907.001,schwimmbad: Parallel processing pools interface,10.5281/zenodo.885576
+1908.024,PYSAT: Python Satellite Data Analysis Toolkit,10.5281/zenodo.1199703
+1910.015,MarsLux: Illumination Mars maps generator,10.5281/zenodo.1215719
+1910.022,"qnm: Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients calculator",10.5281/zenodo.3459790
+1911.002,uvplot: Interferometric visibilities plotter,10.5281/zenodo.1003113
+1912.017,PTMCMCSampler: Parallel tempering MCMC sampler package written in Python,10.5281/zenodo.1037579
+2001.008,DebrisDiskFM: Debris Disk Forward Modeling,10.5281/zenodo.2398963
+2006.010,PRISim: Precision Radio Interferometer Simulator,10.5281/zenodo.2548116
+2007.014,PARS: Paint the Atmospheres of Rotating Stars,10.5281/zenodo.3955185
+2011.024,ACStools: Python tools for Hubble Space Telescope Advanced Camera for Surveys data,10.5281/zenodo.3728240
+2102.026,extinction: Dust extinction laws,10.5281/zenodo.804966
+2107.021,RePrimAnd: Recovery of Primitives And EOS framework,10.5281/zenodo.3785074
+2108.001,HRK: HII Region Kinematics,10.5281/zenodo.5205092
+2108.024,iminuit: Jupyter-friendly Python interface for C++ MINUIT2,10.5281/zenodo.3949207
+2109.001,gammaALPs: Conversion probability between photons and axions/axionlike particles,10.5281/zenodo.4973513
+2109.008,pyia: Python package for working with Gaia data,10.5281/zenodo.1228136
+2109.009,pyFFTW: Python wrapper around FFTW,10.5281/zenodo.59508
+2109.017,HTOF: Astrometric solutions for Hipparcos and Gaia intermediate data,10.5281/zenodo.4104383
+2109.023,gphist: Cosmological expansion history inference using Gaussian processes,10.5281/zenodo.999564
+2110.008,ParSNIP: Parametrization of SuperNova Intrinsic Properties,10.5281/zenodo.5493509
+2110.011,GRASS: GRanulation and Spectrum Simulator,10.5281/zenodo.5512775
+2110.013,Nauyaca: N-body approach for determining planetary masses and orbital elements,10.5281/zenodo.5230451
+2112.002,QUESTFIT: Fitter for mid-infrared galaxy spectra,10.5281/zenodo.5781470
+2112.005,Interferopy: Analyzing datacubes from radio-to-submm observations,10.5281/zenodo.5775603
+2112.011,DarkARC: Dark Matter-induced Atomic Response Code,10.5281/zenodo.3581334
+2112.012,DiracVsMajorana: Statistical discrimination of sub-GeV Majorana and Dirac dark matter,10.5281/zenodo.3701262
+2203.019,agnpy: Modeling jetted Active Galactic Nuclei radiative processes with Python,10.5281/zenodo.4055175
+2203.027,Zoobot: Deep learning galaxy morphology classifier,10.5281/zenodo.6483175
+2205.002,am: Microwave through submillimeter-wave propagation tool for the terrestrial atmosphere,10.5281/zenodo.1193770
+2205.005,maelstrom: Forward modeling of pulsating stars in binaries,10.5281/zenodo.3669395
+2205.021,CPNest: Parallel nested sampling,10.5281/zenodo.6460935
+2206.004,pystortion: Distortion measurement support,10.5281/zenodo.3516267
+2206.011,IFSCube: Analyze and process integral field spectroscopy data cubes,10.5281/zenodo.4065550
+2206.012,WDPhotTools: White Dwarf Photometric SED fitter and luminosity function builder,10.5281/zenodo.6595029
+2206.017,atoMEC: Average-Atom code for Matter under Extreme Conditions,10.5281/zenodo.5205718
+2206.028,Spritz: General relativistic magnetohydrodynamic code,10.5281/zenodo.3689751
+2207.002,pynucastro: Python interfaces to the nuclear reaction rate databases,10.5281/zenodo.1202435
+2207.005,echelle: Dynamic echelle diagrams for asteroseismology,10.5281/zenodo.3629933
+2207.015,calviacat: Calibrate star photometry by catalog comparison,10.5281/zenodo.2635840
+2208.004,TOM Toolkit: Target and Observation Manager Toolkit,10.5281/zenodo.4437764
+2208.018,EstrellaNueva: Expected rates of supernova neutrinos calculator,10.5281/zenodo.6354849
+2209.007,AMBER: Fast pipeline for detecting single-pulse radio transients,10.5281/zenodo.4050180
+2210.025,tvguide: Observability by TESS,10.5281/zenodo.823356
+2301.021,WALDO: Waveform AnomaLy DetectOr,10.5281/zenodo.7127963
+2306.030,Butterpy: Stellar butterfly diagram and rotational light curve simulator,10.5281/zenodo.4722052
+2306.032,CosmoGraphNet: Cosmological parameters and galaxy power spectrum from galaxy catalogs,10.5281/zenodo.6485804
+2307.001,Jdaviz: JWST astronomical data analysis tools in the Jupyter platform,10.5281/zenodo.5513927
+2307.036,binary_c-python: Stellar population synthesis tool and interface to binary_c,10.5281/zenodo.7974135
+2308.009,caput: Utilities for building radio astronomy data analysis pipelines,10.5281/zenodo.5846374
+2308.013,Driftscan: Drift scan telescope analysis,10.5281/zenodo.5949192
+2309.007,MATRIX: Multi-phAse Transits Recovery from Injected eXoplanets toolkit,10.5281/zenodo.6570831
+2312.011,PhotochemPy: 1-D photochemical model of rocky planet atmospheres,10.5281/zenodo.6360737
+2401.012,baryon-sweep: Outlier rejection algorithm for JWST/NIRSpec IFS data,10.5281/zenodo.8377531
+2403.003,kinematic_scaleheight: Infer the vertical distribution of clouds in the solar neighborhood,10.5281/zenodo.10818724
+2405.002,nessai: Nested sampling with artificial intelligence,10.5281/zenodo.4550693
+2407.003,pycosie: Python analysis code used on Technicolor Dawn,10.5281/zenodo.12192605
+2410.002,pysymlog: Symmetric (signed) logarithm scale for Python plots,10.5281/zenodo.11087514
+2503.023,TDEF: Synthetic X-ray spectra for fitting Tidal Disruption Events,10.5281/zenodo.11110331
+2507.006,OW: Opacity Wizard,10.5281/zenodo.14098
