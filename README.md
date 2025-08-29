@@ -10,3 +10,4 @@ citation info to ADS.
 * https://ascl.net
 * https://zenodo.org/
 * https://ui.adsabs.harvard.edu/ - Astrophysics Data System 
+* https://github.com/Heliophysics-Software-Search-Interface   HSSI repos
