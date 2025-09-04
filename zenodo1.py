@@ -16,15 +16,24 @@ record_identifier = "10.5281/zenodo.3947506"    # ok
 record_identifier = "10.5281/zenodo.16304"      # (later: 3637961)    https://zenodo.org/records/16304
 record_identifier = "10.5281/zenodo.3637961"    # ok
 
+# MESA (13353788) is another example where only the most recent DOI can be programmaitclaly asked for the concept DOI
+# same for other way around:  concept DOI link goes to most recent
+#      a={"doi": {"client": "datacite", "identifier": "10.5281/zenodo.592696", "provider": "datacite"}}
+#      grep data-record-parent-pids zenodo.16304
+#          a['doi']['identifier']
+# Out[2]: '10.5281/zenodo.592696'
+
 if len(sys.argv) > 1:
     record_identifier = "10.5281/zenodo.%s" % sys.argv[1]
 
-print("# Trying ",record_identifier)
+print(f"# Trying https://doi.org/{record_identifier}")
 
 # Construct the API URL for the record
 # For a specific record ID, use: f"https://zenodo.org/api/records/{record_identifier}"
 # For a concept DOI (to get the latest version), use: f"https://zenodo.org/api/records?q=doi:{record_identifier}"
 api_url = f"https://zenodo.org/api/records?q=doi:{record_identifier}"
+print("URL:",api_url)
+
 
 try:
     response = requests.get(api_url)
@@ -32,7 +41,7 @@ try:
 
     data = response.json()
 
-    #print("ALL",data)
+    print("ALL",data)
 
     # If searching by concept DOI, the result will be a list of records,
     # and we usually want the first one (latest version).
