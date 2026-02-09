@@ -4,10 +4,14 @@
 #    "2507-004": {"bibcode": "2024JOSS....9.6972C", "ascl_id": "2412.025", "link": "https://emac.gsfc.nasa.gov?cid=2507-004", "name": "squishyplanet"},
 #    ...
 #    "2207-147": {"bibcode": null, "ascl_id": "2207.014", "link": "https://emac.gsfc.nasa.gov?cid=2207-147", "name": "petitRADTRANS"}
- 
+
+import sys
 import json
 
+
 jname = "emac.json"
+if len(sys.argv) > 1:
+    jname = sys.argv[1]
 
 try:
     with open(jname, 'r') as f:
