@@ -18,5 +18,9 @@ Zenodo concept DOIs are added to corresponding ASCL entries for possible use by 
 
 ASCL database is adapted for inclusion of Zenodo concept DOIs, assuming ADS wants to ingest them
 	These will not be publicly displayed on the ASCL, as doing so would likely confuse users.
+	ADS does not want to ingest them, so this is... 
+	Done
  
 New metadata for preferred citation and Zenodo DOIs is ingested by ADS for testing possible new functionality
+	ADS is currently ingesting preferred citation information and does not at this time want to ingest Zenodo concept DOIs from the ASCL
+	Done
