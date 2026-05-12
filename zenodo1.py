@@ -4,6 +4,7 @@ import sys
 import json
 import requests
 
+brief = True
 
 # Replace with the actual DOI or record ID of the code you're interested in
 # For example, using a concept DOI to get the latest version
@@ -20,6 +21,8 @@ if len(sys.argv) > 1:
     record_identifier = "10.5281/zenodo.%s" % sys.argv[1]
 
 print("# Trying ",record_identifier)
+
+
 
 # Construct the API URL for the record
 # For a specific record ID, use: f"https://zenodo.org/api/records/{record_identifier}"
@@ -39,16 +42,19 @@ try:
     if data and 'hits' in data and data['hits']['hits']:
         code_info = data['hits']['hits'][0] # Get the latest version
 
-        print("Information about the code:")
-        print(f"Title: {code_info.get('metadata', {}).get('title')}")
-        print(f"DOI: {code_info.get('doi')}")
-        print(f"CONCEPT_DOI: {code_info.get('conceptdoi')}")
-        print(f"Description: {code_info.get('metadata', {}).get('description')[:200]}...") # Truncate for brevity
-        print(f"Creators: {', '.join([c.get('name') for c in code_info.get('metadata', {}).get('creators', [])])}")
-        print(f"Publication Date: {code_info.get('metadata', {}).get('publication_date')}")
-        print(f"Files:")
-        for file in code_info.get('files', []):
-            print(f"  - {file.get('key')} (Size: {file.get('size')} bytes)")
+        if brief:
+            print(f"DOI: {code_info.get('doi')} CD:  {code_info.get('conceptdoi')}")
+        else:
+            print(f"Information about the code:")
+            print(f"Title: {code_info.get('metadata', {}).get('title')}")
+            print(f"DOI: {code_info.get('doi')}")
+            print(f"CONCEPT_DOI: {code_info.get('conceptdoi')}")
+            print(f"Description: {code_info.get('metadata', {}).get('description')[:200]}...") # Truncate for brevity
+            print(f"Creators: {', '.join([c.get('name') for c in code_info.get('metadata', {}).get('creators', [])])}")
+            print(f"Publication Date: {code_info.get('metadata', {}).get('publication_date')}")
+            print(f"Files:")
+            for file in code_info.get('files', []):
+                print(f"  - {file.get('key')} (Size: {file.get('size')} bytes)")
     else:
         print(f"No record found for identifier: {record_identifier}")
 
