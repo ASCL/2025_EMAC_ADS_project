@@ -27,3 +27,7 @@ list:
 ## git:        update using 'git pull'
 git:
 	@git pull
+
+## count:      count occurances per month
+count:
+	awk -F- '{print $$1}' emac.list | uniq -c
