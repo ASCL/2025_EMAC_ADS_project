@@ -21,5 +21,6 @@ json:
 ## list:      create list, ready for git ingest
 list:
 	./emac.py emac.json > emac.list
-
+	@echo "There are `cat emac.list | wc -l` entries in emac.list. The latest entry:"
+	@tail -1 emac.list
 
