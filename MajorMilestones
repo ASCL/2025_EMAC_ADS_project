@@ -8,10 +8,13 @@ Set of software common to ASCL and Zenodo is identified
 	Done
 
 ASCL database is adapted for inclusion of links to EMAC entries
+	Done
 
 Existing ASCL records for EMAC software are edited to include links to the EMAC entries
+	Done
 
 New links and edited ASCL records for EMAC research software are ingested by and appear in ADS
+	Done
 
 Zenodo concept DOIs are added to corresponding ASCL entries for possible use by ADS
 	Done; currently in Notes field
