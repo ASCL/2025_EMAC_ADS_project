@@ -3,7 +3,11 @@
 
 .PHONY:  help
 
+# 1=verified   2=unverified  3=all
+# note unverified do not have an EMAC CID
 URL1 = https://emac.gsfc.nasa.gov/api/resource-links
+URL2 = https://emac.gsfc.nasa.gov/api/inlit-resources
+URL3 = https://emac.gsfc.nasa.gov/api/all-resources
 
 DATE = `date +%Y-%m-%d`
 
@@ -18,7 +22,7 @@ json:
 	cp emac.json emacs_$(DATE).json
 	diff emac.json emac.json.backup
 
-## list:      create list, ready for git ingest
+## list:      create list of EMACS CID, ready for git ingest
 list:
 	@./emac.py emac.json > emac.list
 	@echo "There are `cat emac.list | wc -l` entries in emac.list. The latest entry:"
@@ -31,3 +35,6 @@ git:
 ## count:      count occurances per month
 count:
 	awk -F- '{print $$1}' emac.list | uniq -c
+
+
+# 426
