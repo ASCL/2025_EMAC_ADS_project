@@ -21,7 +21,10 @@ try:
     
     for k in keys:
         d = data[k]
-        print(k,d["name"])
+        a = d["ascl_id"]
+        if len(a) == 0:
+            a = "N/A     "
+        print(d["last_modification_date"],k,a,d["name"])
 
 except FileNotFoundError:
     print(f"Error: {jname} not found. Please ensure the file exists in the correct directory.")
