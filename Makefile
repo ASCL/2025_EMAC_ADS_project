@@ -36,3 +36,6 @@ git:
 count:
 	awk -F- '{print $$1}' emac.list | uniq -c
 
+#
+# 390 confirmed:    69 no ascl-id
+# 158 un-confirmed: 58 no ascl-id
