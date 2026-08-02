@@ -18,13 +18,13 @@ help : Makefile
 ## json:      get a new emac.json and compare to the previous one
 json:
 	cp emac.json emac.json.backup
-	-curl $(URL1)  > emac.json
+	-curl $(URL3)  > emac.json
 	cp emac.json emacs_$(DATE).json
 	diff emac.json emac.json.backup
 
 ## list:      create list of EMACS CID, ready for git ingest
 list:
-	@./emac.py emac.json > emac.list
+	@./emac.py emac.json | sort > emac.list
 	@echo "There are `cat emac.list | wc -l` entries in emac.list. The latest entry:"
 	@tail -1 emac.list
 
@@ -36,5 +36,3 @@ git:
 count:
 	awk -F- '{print $$1}' emac.list | uniq -c
 
-
-# 426
