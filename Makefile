@@ -22,19 +22,23 @@ json:
 	cp emac.json emacs_$(DATE).json
 	diff emac.json emac.json.backup
 
-## list:      create list of EMACS CID, ready for git ingest
+## list:      create list of EMACS CID, compare to old one, and ready for git commit
 list:
 	@./emac.py emac.json | sort > emac.list
 	@echo "There are `cat emac.list | wc -l` entries in emac.list. The latest entry:"
 	@tail -1 emac.list
 
-## git:        update using 'git pull'
+## git:       update using 'git pull'
 git:
 	@git pull
 
-## count:      count occurances per month
+## count:     count entries per year
 count:
 	awk -F- '{print $$1}' emac.list | uniq -c
+
+## count2:    count entries per year/month
+count2:
+	awk -F- '{print $$1,$$2}' emac.list | uniq -c
 
 #
 # 390 confirmed:    69 no ascl-id
